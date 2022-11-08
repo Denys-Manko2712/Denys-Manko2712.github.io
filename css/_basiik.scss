@@ -1,0 +1,21 @@
+@font-face{
+    font-family: nnn;
+    src: url(./basik/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@mixin font-fam1 {
+    font-family: nnn;
+    font-style: normal;
+}
+$color:rgb(255, 255, 255);
+@mixin base ($x,$z){
+    top:$x;
+    left:$z;
+}
+@mixin grid ($q,$w,$e,$r) {
+    grid-column-start: $q ;
+    grid-column-end: $w;
+    grid-row-start: $e;
+    grid-row-end: $r;
+    
+}
+
